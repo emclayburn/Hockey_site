@@ -9,4 +9,8 @@ The St. Louis Blues are a professional hockey team located in St. Louis Missouri
 ## Team Stats
 In the game of hockey, points by a player is one of the most important things. A point is described as either a goal or an assist. The more points a player has, generally the better they are. During the 2024-25 season, Robert Thomas led the club in points with 81.
 
-<img src="images/Robert_Thomas.png" alt="Robert Thomas" width="100">
+<div style="text-align: center;">
+  <img src="images/Robert_Thomas.png" alt="Robert Thomas" width="150">
+</div>
+
+Of the 81 points Thomas had, only 21 came from goals. By this, you can tell that Thomas isn't the main scorer on the team, he is the facilitator. Thomas's favorite players to assist were Jordan Kyrou and Pavel Buchnevich, both with 9. This is not a surprise since this trio was the top line for St. Louis during the 24-25 season.
