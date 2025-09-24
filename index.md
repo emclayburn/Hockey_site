@@ -4,7 +4,7 @@
 ## About Hockey
 This is where you can add information about hockey.
 
-![St. Louis Blues Logo](St._Louis_Blues_Logo.svg)
+![St. Louis Blues Logo](images/St._Louis_Blues_Logo.svg)
 
 ## Team Stats
 Add stats or player info here.
