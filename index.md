@@ -1,7 +1,8 @@
+
 # Welcome to Ethan's Hockey Site
  This is a site dedicated to hockey statistics, most specifically the **St. Louis Blues**
 
-## About The Blues
+# About The Blues
 The **St. Louis Blues** are a professional hockey team located in St. Louis Missouri. The team came into existance in 1967, being one of six new teams added. They have one Stanley Cup win, coming in 2019. After a first round exit in 2025, they gear up for a new season starting October 9th against the **Minnesota Wild**.
 
 <p align="center">
@@ -91,3 +92,6 @@ plt.savefig("images/binnington_goals.png")
 
 
 ![Jordan Binnington Goals](images/binnington_goals.png)
+
+## So what?
+What conclusions can we draw from this data? From this data we can see that in every situation listed like 5 on 5 or on a 5 on 4 powerplay, **Jordan Binnington** lets up less goals than is expected of him. The only situations where he gives up more than expected is in the other situations, like up 5 on 3 or down 3 to 5. For a goalie, that is a really good thing, stoping more shots than expected. 
