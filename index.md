@@ -33,16 +33,23 @@ To read an Excel file in Python using pandas:
 ```python
 import pandas as pd
 
-# Read Excel file
-df = pd.read_excel("data/goalies.csv")
+# Read your CSV file
+df = pd.read_csv("data/goalies.csv")
 
-# Show first 5 rows
-print(df.head())
-``` 
-The results will show 
+# Filter for Jordan Binnington
+binnington_df = df[df["name"] == "Jordan Binnington"]
+
+# Preview his rows
+print(binnington_df)
+
+# Optional: save to Markdown for your GitHub Pages
+binnington_df.to_markdown("binnington.md")
+
+```
 ## Preview of Data
 
 <div style="overflow-x:auto;">
+
 |     |   playerId |   season | name              | team   | position   | situation   |   games_played |   icetime |   xGoals |   goals |   unblocked_shot_attempts |   xRebounds |   rebounds |   xFreeze |   freeze |   xOnGoal |   ongoal |   xPlayStopped |   playStopped |   xPlayContinuedInZone |   playContinuedInZone |   xPlayContinuedOutsideZone |   playContinuedOutsideZone |   flurryAdjustedxGoals |   lowDangerShots |   mediumDangerShots |   highDangerShots |   lowDangerxGoals |   mediumDangerxGoals |   highDangerxGoals |   lowDangerGoals |   mediumDangerGoals |   highDangerGoals |   blocked_shot_attempts |   penalityMinutes |   penalties |
 |----:|-----------:|---------:|:------------------|:-------|:-----------|:------------|---------------:|----------:|---------:|--------:|--------------------------:|------------:|-----------:|----------:|---------:|----------:|---------:|---------------:|--------------:|-----------------------:|----------------------:|----------------------------:|---------------------------:|-----------------------:|-----------------:|--------------------:|------------------:|------------------:|---------------------:|-------------------:|-----------------:|--------------------:|------------------:|------------------------:|------------------:|------------:|
 | 140 |    8476412 |     2024 | Jordan Binnington | STL    | G          | other       |             56 |      4316 |    11.5  |      13 |                       138 |        5.46 |          8 |     13.6  |        7 |     76.77 |       61 |           1.24 |             0 |                  43.47 |                    35 |                       25.48 |                         39 |                   9.24 |               57 |                  31 |                14 |              2.51 |                 3.65 |               5.35 |                4 |                   7 |                 2 |                      36 |                 0 |           0 |
@@ -52,3 +59,6 @@ The results will show
 | 144 |    8476412 |     2024 | Jordan Binnington | STL    | G          | 5on4        |             56 |     11442 |     1.97 |       1 |                        44 |        1.38 |          1 |      4.67 |        3 |     28.27 |       32 |           6.41 |             1 |                   9.39 |                     5 |                       20.69 |                         29 |                   1.95 |               33 |                   4 |                 2 |              0.94 |                 0.55 |               0.47 |                0 |                   0 |                 1 |                       5 |                 2 |           1 |
 
 </div>
+
+### Goals vs Expected Goals
+![Jordan Binnington Goals](images/binnington_goals.png)
