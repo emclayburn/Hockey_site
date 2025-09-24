@@ -49,7 +49,6 @@ binnington_df.to_markdown("binnington.md")
 ## Preview of Data
 
 <div style="overflow-x:auto;">
-
 | name | team | position | situation | games_played | icetime | xGoals | goals |
 |------|------|---------|-----------|--------------|---------|--------|-------|
 | Jordan Binnington | STL | G | other | 56 | 4316 | 11.5 | 13 |
@@ -57,7 +56,6 @@ binnington_df.to_markdown("binnington.md")
 | Jordan Binnington | STL | G | 5on5  | 56 | 165286 | 105.17 | 100 |
 | Jordan Binnington | STL | G | 4on5  | 56 | 13295 | 30.45 | 30 |
 | Jordan Binnington | STL | G | 5on4  | 56 | 11442 | 1.97  | 1 |
-
 </div>
 
 ### Goals vs Expected Goals
