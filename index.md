@@ -26,4 +26,17 @@ The goalie for the Blues is **Jordan Binnington**. He came into the spotlight in
 Many fans in hockey don't know if **Binnington** is a good goalie or not. Some people think that he is flashy, but doesn't perform that great all the time. How can we tell if he is a good goalie or not? Are there numbers to back up either way? Of course there is, lets dive in.
 
 # Important Statistics
-What are some stats that would be key in showing the effectiveness of a goalie? Maybe you want to see the total goals that have given up, maybe goals per game, or maybe even goals per 60 minutes. These could all be good indicators to whether a goalie is good or not.
+What are some stats that would be key in showing the effectiveness of a goalie? Maybe you want to see the total goals that have given up, maybe goals per game, or maybe even goals per 60 minutes. These could all be good indicators to whether a goalie is good or not. What we are going to do for this example is load in an excel file of all goalie information from the 24-25 season and see how effective **Binnington** truly was. 
+
+To read an Excel file in Python using pandas:
+
+```python
+import pandas as pd
+
+# Read Excel file
+df = pd.read_excel("data/goalies.csv")
+
+# Show first 5 rows
+print(df.head())
+``` 
+The results will show 
