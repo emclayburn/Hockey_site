@@ -20,7 +20,7 @@ Of the 81 points **Thomas** had, only 21 came from goals. By this, you can tell 
 The goalie for the Blues is **Jordan Binnington**. He came into the spotlight in 2019 leading the Blues to the Stanley Cup win. 
 
 <div style="text-align: center;">
-  <img src="images/Binnington.png" alt="Jordan Binnington" width="200">
+  <img src="images/Binnington.png" alt="Jordan Binnington" width="400">
 </div>
 
 Many fans in hockey don't know if **Binnington** is a good goalie or not. Some people think that he is flashy, but doesn't perform that great all the time. How can we tell if he is a good goalie or not? Are there numbers to back up either way? Of course there is, lets dive in.
