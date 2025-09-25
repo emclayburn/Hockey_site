@@ -1,5 +1,7 @@
-
-# Welcome to Ethan's Hockey Site
+---
+title: Ethan's github page
+---
+# Welcome
  This is a site dedicated to hockey statistics, most specifically the **St. Louis Blues**
 
 # About The Blues
