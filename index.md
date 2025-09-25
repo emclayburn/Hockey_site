@@ -27,13 +27,13 @@ The goalie for the Blues is **Jordan Binnington**. He came into the spotlight in
 Many fans in hockey don't know if **Binnington** is a good goalie or not. Some people think that he is flashy, but doesn't perform that great all the time. How can we tell if he is a good goalie or not? Are there numbers to back up either way? Of course there is, lets dive in.
 
 # Important Statistics
-What are some stats that would be key in showing the effectiveness of a goalie? Maybe you want to see the total goals that have given up, maybe goals per game, or maybe even goals per 60 minutes. These could all be good indicators to whether a goalie is good or not. What we are going to do for this example is load in an excel file of all goalie information from the 24-25 season and see how effective **Binnington** truly was. A link to download the file is found here: [Goalie Data](https://moneypuck.com/data.htm). Scroll down to goalies and download the 2024-2025 file.
+What are some stats that would be key in showing the effectiveness of a goalie? Maybe you want to see the total goals that have given up, maybe goals per game, or maybe even goals per 60 minutes. These could all be good indicators to whether a goalie is good or not. What we are going to do for this example is load in an excel file of all goalie information from the 24-25 season and see how effective **Binnington** truly was. A link to download the file is found here on the Money Puck website: [Goalie Data](https://moneypuck.com/data.htm). Scroll down to goalies and download the 2024-2025 file.
 
 To read an Excel file in Python using pandas:
 
 ```python
 import pandas as pd
-# Read your CSV file
+# Read your CSV file from your "data" folder
 df = pd.read_csv("data/goalies.csv")
 
 # Filter for Jordan Binnington
@@ -95,3 +95,5 @@ plt.savefig("images/binnington_goals.png")
 
 ## So what?
 What conclusions can we draw from this data? From this data we can see that in every situation listed like 5 on 5 or on a 5 on 4 powerplay, **Jordan Binnington** lets up less goals than is expected of him. The only situations where he gives up more than expected is in the other situations, like up 5 on 3 or down 3 to 5. For a goalie, that is a really good thing, stoping more shots than expected. 
+
+One of the best parts about this analysis is that you can look at any goalie in the data set. If you wanted to see how good **Joel Hofer**, the Blue backup goalie, is compared to Binnington, you just need to replace Jordan Binnington with Joel Hofer and it will compute for you. 
