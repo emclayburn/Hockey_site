@@ -27,6 +27,76 @@ In the game of hockey, points by a player is one of the most important things. A
 
 Of the 81 points **Thomas** had, only 21 came from goals. By this, you can tell that **Thomas** isn't the main scorer on the team, he is the facilitator. **Thomas's** favorite players to assist were **Jordan Kyrou** and **Pavel Buchnevich**, both with 9. This is not a surprise since this trio was the top line for St. Louis during the 24-25 season. This will likely change this season with **Kyrou** being swapped out of the top line for **Jimmy Snuggerud**.
 
+## Thomas Analysis
+
+What makes a center important? Is it the assists? Is it the goals? What can we do to measure Robert Thoomas's worth on the team? For now, lets check out Robert Thomas's goals, assists, and exoected goals with him shooting. For this, we are going to load data gathered from MoneyPuck.com: [Skater Data](https://moneypuck.com/data.htm) Scroll down to skaters and download the 2024-2025 file. Using this data, we can do analysis and see Thomas's production.
+
+```python
+import pandas as pd
+
+# Read your CSV file from your "data" folder
+df = pd.read_csv("data/skaters.csv")
+
+# Filter for Robert Thomas
+thomas_df = df[df["name"] == "Robert Thomas"]
+
+# Keep only the columns you care about
+tidy_df = thomas_df[["games_played", "situation", "icetime", "shifts", "I_F_xGoals", "I_F_goals", "I_F_primaryAssists", "I_F_points", "OnIce_F_xGoals"]]
+
+# Preview the tidy DataFrame
+print(tidy_df)
+
+# Optional: save to Markdown for your GitHub Pages
+tidy_df.to_markdown("thomas.md")
+```
+
+Inputing the code without tidying it up will result in a lot more data than we are interested in. When we run this chunk in python, we will get this chart
+
+## Preview of Data
+| name           | team | position | situation | games_played | icetime | xGoals | goals | primaryAssists | secondaryAssists | points | onIce_xGoals |
+|----------------|------|---------|-----------|--------------|---------|--------|-------|----------------|-----------------|--------|--------------|
+| Robert Thomas  | STL  | C       | other     | 70           | 5335    | 2.84   | 7     | 5              | 3               | 15     | 16.66        |
+| Robert Thomas  | STL  | C       | all       | 70           | 83824   | 16.88  | 21    | 35             | 25              | 81     | 86.99        |
+| Robert Thomas  | STL  | C       | 5on5      | 70           | 63798   | 12.14  | 12    | 19             | 17              | 48     | 51.59        |
+| Robert Thomas  | STL  | C       | 4on5      | 70           | 5399    | 0.32   | 1     | 0              | 0               | 1      | 1.03         |
+| Robert Thomas  | STL  | C       | 5on4      | 70           | 9292    | 1.50   | 1     | 11             | 5               | 17     | 17.56        |
+
+### Goals vs Expected Goals
+If we want to chart the data, we can use this function
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("data/skaters.csv")
+thomas = df[df["name"] == "Robert Thomas"]
+
+# Bar chart of goals vs xGoals
+bar = thomas.plot.bar(x="situation", y=["I_F_goals", "I_F_xGoals"])
+
+bar.set_title("Robert Thomas: Goals vs Expected Goals")
+bar.set_xlabel("Situation")
+bar.set_ylabel("Number of goals")
+
+for p in bar.patches:
+    height = round(p.get_height())  # Round the value
+    bar.annotate(f'{height}',
+                (p.get_x() + p.get_width() / 2, height + 0.1),  # Slightly above bar
+                ha='center', va='bottom')
+
+# Save figure
+plt.tight_layout()
+
+plt.savefig("images/thomas_goals.png")
+```
+![Robert Thomas Goals](images/thomas_goals.png)
+
+## So what?
+
+Looking at this data, we can see that Robert Thomas is a higher goal scorer than expected. 
+
+# Further Analysis
+
 The goalie for the Blues is **Jordan Binnington**. He came into the spotlight in 2019 leading the Blues to the Stanley Cup win. 
 
 <div style="text-align: center;">
@@ -37,13 +107,17 @@ Many fans in hockey don't know if **Binnington** is a good goalie or not. Some p
 
 # Important Statistics
 What are some stats that would be key in showing the effectiveness of a goalie? Maybe you want to see the total goals that have given up, maybe goals per game, maybe even goals per 60 minutes, 
+
 $$
 \text{G/60} = \frac{\text{Goals Allowed}}{\text{Ice Time (minutes)}} \times 60
 $$
+
  or save percentage,
+
  $$
 \text{SV\%} = \frac{\text{Shots Faced} - \text{Goals Allowed}}{\text{Shots Faced}}
 $$
+
  These could all be good indicators to whether a goalie is good or not. What we are going to do for this example is load in an excel file of all goalie information from the 24-25 season and see how effective **Binnington** truly was. A link to download the file is found here on the MoneyPuck.com website, as they are the ones that collected the data: [Goalie Data](https://moneypuck.com/data.htm). Scroll down to goalies and download the 2024-2025 file.
 
 To read an Excel file in Python using pandas:
