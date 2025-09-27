@@ -51,6 +51,7 @@ tidy_df = thomas_df[["games_played", "situation", "icetime", "shifts", "I_F_xGoa
 
 print(tidy_df)
 
+
 tidy_df.to_markdown("thomas.md")
 
 import pandas as pd

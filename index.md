@@ -12,7 +12,7 @@ title: Ethan's github page
  This is a site dedicated to hockey statistics, most specifically the **St. Louis Blues**
 
 # About The Blues
-The **St. Louis Blues** are a professional hockey team located in St. Louis Missouri. The team came into existance in 1967, being one of six new teams added. They have one Stanley Cup win, coming in 2019. After a first round exit in 2025, they gear up for a new season starting October 9th against the **Minnesota Wild**.
+The **St. Louis Blues** are a professional hockey team located in St. Louis Missouri. The team came into existence in 1967, being one of six new teams added. They have one Stanley Cup win, coming in 2019. After a first round exit in 2025, they gear up for a new season starting October 9th against the **Minnesota Wild**.
 
 <p align="center">
   <img src="images/St._Louis_Blues_logo.svg" alt="St. Louis Blues Logo" width="200">
@@ -25,11 +25,11 @@ In the game of hockey, points by a player is one of the most important things. A
   <img src="images/Robert_Thomas.png" alt="Bob Thomas" width="150">
 </div>
 
-Of the 81 points **Thomas** had, only 21 came from goals. By this, you can tell that **Thomas** isn't the main scorer on the team, he is the facilitator. **Thomas's** favorite players to assist were **Jordan Kyrou** and **Pavel Buchnevich**, both with 9. This is not a surprise since this trio was the top line for St. Louis during the 24-25 season. This will likely change this season with **Kyrou** being swapped out of the top line for **Jimmy Snuggerud**.
+Robert Thomas racked up 81 points in 70 games, but only 21 were goals, highlighting his role as the team’s primary playmaker. His top targets? Jordan Kyrou and Pavel Buchnevich, each receiving 9 of his assists. Thomas excels at creating high-danger chances, making him indispensable for the Blues’ top line. This is not a surprise since this trio was the top line for St. Louis during the 24-25 season. This will likely change this season with **Kyrou** being swapped out of the top line for **Jimmy Snuggerud**.
 
 ## Thomas Analysis
 
-What makes a center important? Is it the assists? Is it the goals? What can we do to measure Robert Thoomas's worth on the team? For now, lets check out Robert Thomas's goals, assists, and exoected goals with him shooting. For this, we are going to load data gathered from MoneyPuck.com: [Skater Data](https://moneypuck.com/data.htm) Scroll down to skaters and download the 2024-2025 file. Using this data, we can do analysis and see Thomas's production.
+What makes a center important? Is it the assists? Is it the goals? What can we do to measure Robert Thomas's worth on the team? For now, lets check out Robert Thomas's goals, assists, and exoected goals with him shooting. For this, we are going to load data gathered from MoneyPuck.com: [Skater Data](https://moneypuck.com/data.htm) Scroll down to skaters and download the 2024-2025 file. Using this data, we can do analysis and see Thomas's production.
 
 ```python
 import pandas as pd
@@ -94,7 +94,7 @@ plt.savefig("images/thomas_goals.png")
 
 ## So what?
 
-Looking at this data, we can see that Robert Thomas is a higher goal scorer than expected. 
+Looking at this data, we can see that Robert Thomas is a higher goal scorer than expected. Robert Thomas isn't just any center, he's the engine of the Blues' top line, facilitating plays, setting up teammates, and creating scoring chances as a high rate. If you want to do this analysis for your favorite players, just replace Robert Thomas with their name, such as Quinn Hughes!
 
 # Further Analysis
 
