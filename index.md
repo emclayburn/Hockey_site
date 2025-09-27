@@ -53,6 +53,7 @@ tidy_df.to_markdown("thomas.md")
 Inputing the code without tidying it up will result in a lot more data than we are interested in. When we run this chunk in python, we will get this chart
 
 ## Preview of Data
+
 | name           | team | position | situation | games_played | icetime | xGoals | goals | primaryAssists | secondaryAssists | points | onIce_xGoals |
 |----------------|------|---------|-----------|--------------|---------|--------|-------|----------------|-----------------|--------|--------------|
 | Robert Thomas  | STL  | C       | other     | 70           | 5335    | 2.84   | 7     | 5              | 3               | 15     | 16.66        |
