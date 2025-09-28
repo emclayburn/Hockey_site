@@ -96,6 +96,16 @@ plt.savefig("images/thomas_goals.png")
 
 Looking at this data, we can see that Robert Thomas is a higher goal scorer than expected. Robert Thomas isn't just any center, he's the engine of the Blues' top line, facilitating plays, setting up teammates, and creating scoring chances as a high rate. If you want to do this analysis for your favorite players, just replace Robert Thomas with their name, such as Quinn Hughes!
 
+<div align="center">
+  <iframe width="800" height="450" 
+          src="https://www.youtube.com/embed/GKVVIBWIYHA?start=13" 
+          title="Robert Thomas Highlights" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
+</div>
+
 # Further Analysis
 
 The goalie for the Blues is **Jordan Binnington**. He came into the spotlight in 2019 leading the Blues to the Stanley Cup win. 
