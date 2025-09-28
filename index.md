@@ -41,7 +41,7 @@ df = pd.read_csv("data/skaters.csv")
 thomas_df = df[df["name"] == "Robert Thomas"]
 
 # Keep only the columns you care about
-tidy_df = thomas_df[["games_played", "situation", "icetime", "shifts", "I_F_xGoals", "I_F_goals", "I_F_primaryAssists", "I_F_points", "OnIce_F_xGoals"]]
+tidy_df = thomas_df[["games_played", "situation", "icetime", "shifts", "I_F_xGoals", "I_F_goals", "I_F_primaryAssists", "I_F_points"]]
 
 # Preview the tidy DataFrame
 print(tidy_df)
