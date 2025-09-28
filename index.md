@@ -98,7 +98,7 @@ Looking at this data, we can see that Robert Thomas is a higher goal scorer than
 
 <div align="center">
   <iframe width="800" height="450" 
-          src="https://www.youtube.com/embed/GKVVIBWIYHA?start=13" 
+          src="https://www.youtube.com/embed/GKVVIBWIYHA?start=0" 
           title="Robert Thomas Highlights" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
