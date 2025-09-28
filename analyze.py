@@ -51,7 +51,6 @@ tidy_df = thomas_df[["games_played", "situation", "icetime", "shifts", "I_F_xGoa
 
 print(tidy_df)
 
-
 tidy_df.to_markdown("thomas.md")
 
 import pandas as pd
@@ -66,6 +65,7 @@ bar = thomas.plot.bar(x="situation", y=["I_F_goals", "I_F_xGoals"])
 bar.set_title("Robert Thomas: Goals vs Expected Goals")
 bar.set_xlabel("Situation")
 bar.set_ylabel("Number of goals")
+bar.legend(["Goals", "Expected Goals"])
 
 for p in bar.patches:
     height = round(p.get_height())  # Round the value

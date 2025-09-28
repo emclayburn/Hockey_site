@@ -78,6 +78,7 @@ bar = thomas.plot.bar(x="situation", y=["I_F_goals", "I_F_xGoals"])
 bar.set_title("Robert Thomas: Goals vs Expected Goals")
 bar.set_xlabel("Situation")
 bar.set_ylabel("Number of goals")
+bar.legend(["Goals","Expected Goals"])
 
 for p in bar.patches:
     height = round(p.get_height())  # Round the value
