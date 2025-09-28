@@ -94,7 +94,7 @@ plt.savefig("images/thomas_goals.png")
 
 ## So what?
 
-Looking at this data, we can see that Robert Thomas is a higher goal scorer than expected. Robert Thomas isn't just any center, he's the engine of the Blues' top line, facilitating plays, setting up teammates, and creating scoring chances as a high rate. If you want to do this analysis for your favorite players, just replace Robert Thomas with their name, such as Quinn Hughes!
+Looking at this data, we can see that Robert Thomas is a higher goal scorer than expected. Robert Thomas isn't just any center, he's the engine of the Blues' top line, facilitating plays, setting up teammates, and creating scoring chances as a high rate. If you want to do this analysis for your favorite players, just replace Robert Thomas with their name, such as Quinn Hughes! But, if you're smart, Robert Thomas is your favorite player.
 
 <div align="center">
   <iframe width="800" height="450" 
