@@ -1,3 +1,3 @@
 title: ""        # this removes the "Hockey_site" text link
 description: "Analyzing St. Louis Blues player statistics using Python and data"
-theme: minima    # or whatever theme you’re using
+theme: jekyll-theme-cayman
