@@ -25,11 +25,11 @@ In the game of hockey, points by a player is one of the most important things. A
   <img src="images/Robert_Thomas.png" alt="Bob Thomas" width="150">
 </div>
 
-Robert Thomas racked up 81 points in 70 games, but only 21 were goals, highlighting his role as the team’s primary playmaker. His top targets? Jordan Kyrou and Pavel Buchnevich, each receiving 9 of his assists. Thomas excels at creating high-danger chances, making him indispensable for the Blues’ top line. This is not a surprise since this trio was the top line for St. Louis during the 24-25 season. This will likely change this season with **Kyrou** being swapped out of the top line for **Jimmy Snuggerud**.
+**Robert Thomas** racked up 81 points in 70 games, but only 21 were goals, highlighting his role as the team’s primary playmaker. His top targets? **Jordan Kyrou** and **Pavel Buchnevich**, each receiving 9 of his assists. **Thomas** excels at creating high-danger chances, making him indispensable for the Blues’ top line. This is not a surprise since this trio was the top line for St. Louis during the 24-25 season. This will likely change this season with **Kyrou** being swapped out of the top line for **Jimmy Snuggerud**.
 
 ## Thomas Analysis
 
-What makes a center important? Is it the assists? Is it the goals? What can we do to measure Robert Thomas's worth on the team? For now, lets check out Robert Thomas's goals, assists, and exoected goals with him shooting. For this, we are going to load data gathered from MoneyPuck.com: [Skater Data](https://moneypuck.com/data.htm) Scroll down to skaters and download the 2024-2025 file. Using this data, we can do analysis and see Thomas's production.
+What makes a center important? Is it the assists? Is it the goals? What can we do to measure **Robert Thomas's** worth on the team? For now, lets check out **Robert Thomas's** goals, assists, and exoected goals with him shooting. For this, we are going to load data gathered from MoneyPuck.com: [Skater Data](https://moneypuck.com/data.htm) Scroll down to skaters and download the 2024-2025 file. Using this data, we can do analysis and see **Thomas's** production.
 
 ```python
 import pandas as pd
@@ -95,7 +95,7 @@ plt.savefig("images/thomas_goals.png")
 
 ## So what?
 
-Looking at this data, we can see that Robert Thomas is a higher goal scorer than expected. Robert Thomas isn't just any center, he's the engine of the Blues' top line, facilitating plays, setting up teammates, and creating scoring chances as a high rate. If you want to do this analysis for your favorite players, just replace Robert Thomas with their name, such as Quinn Hughes! But, if you're smart, Robert Thomas is your favorite player.
+Looking at this data, we can see that **Robert Thomas** is a higher goal scorer than expected. **Robert Thomas** isn't just any center, he's the engine of the Blues' top line, facilitating plays, setting up teammates, and creating scoring chances as a high rate. If you want to do this analysis for your favorite players, just replace **Robert Thomas** with their name, such as **Quinn Hughes**! But, if you're smart, **Robert Thomas** is your favorite player.
 
 <div align="center">
   <iframe width="800" height="450" 
@@ -199,6 +199,6 @@ plt.savefig("images/binnington_goals.png")
 ## So what?
 What conclusions can we draw from this data? From this data we can see that in every situation listed like 5 on 5 or on a 5 on 4 powerplay, **Jordan Binnington** lets up less goals than is expected of him. The only situations where he gives up more than expected is in the other situations, like up 5 on 3 or down 3 to 5. For a goalie, that is a really good thing, stoping more shots than expected. 
 
-One of the best parts about this analysis is that you can look at any goalie in the data set. If you wanted to see how good **Joel Hofer**, the Blue backup goalie, is compared to Binnington, you just need to replace Jordan Binnington with Joel Hofer and it will compute for you. 
+One of the best parts about this analysis is that you can look at any goalie in the data set. If you wanted to see how good **Joel Hofer**, the Blue backup goalie, is compared to **Binnington**, you just need to replace **Jordan Binnington** with **Joel Hofer** and it will compute for you. 
 
 Overall, this is very basic data acquisition and visualization. Using tools like Python, you can wrangle data and visualize it any way you would like. Did we paint a full picture today about Binnington and Thomas? No, but what we have are steps in the direction of making calls for an organization like the St. Louis Blues.
