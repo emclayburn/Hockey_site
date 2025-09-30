@@ -202,3 +202,5 @@ What conclusions can we draw from this data? From this data we can see that in e
 One of the best parts about this analysis is that you can look at any goalie in the data set. If you wanted to see how good **Joel Hofer**, the Blue backup goalie, is compared to **Binnington**, you just need to replace **Jordan Binnington** with **Joel Hofer** and it will compute for you. 
 
 Overall, this is very basic data acquisition and visualization. Using tools like Python, you can wrangle data and visualize it any way you would like. Did we paint a full picture today about Binnington and Thomas? No, but what we have are steps in the direction of making calls for an organization like the St. Louis Blues.
+
+any uierbwbetw
