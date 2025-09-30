@@ -203,4 +203,3 @@ One of the best parts about this analysis is that you can look at any goalie in 
 
 Overall, this is very basic data acquisition and visualization. Using tools like Python, you can wrangle data and visualize it any way you would like. Did we paint a full picture today about Binnington and Thomas? No, but what we have are steps in the direction of making calls for an organization like the St. Louis Blues.
 
-any uierbwbetw
